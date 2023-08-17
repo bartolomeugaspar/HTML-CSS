@@ -1,0 +1,26 @@
+.palavra#p1 {
+    color: #ebe;
+    background-color: red;
+    font-size: 20px;
+    font-family: "arial";
+}
+
+.palavra#p2 {
+    color: red;
+    background-color: blue;
+    font-size: 20px;
+    font-family: "Cambria";
+}
+
+.palavra2 {
+    font-family: "Times new Roman";
+}
+
+a {
+    text-decoration: underline;
+}
+
+a:hover {
+    font-size: 1px;
+    color: red;
+}

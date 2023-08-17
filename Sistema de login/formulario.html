@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Formulario BG</title>
+</head>
+
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Formulario de Pessoas</b></legend>
+                <div class="inputbox">
+                    <label for="nome" class="label">Nome completo</label><br>
+                    <br> <input type="text" name="nome" id="nome" class="inputUser" required>
+
+                </div><br>
+                <div class="inputbox">
+                    <label for="nome" class="label">Email</label><br><br>
+                    <input type="email" name="email" id="email" class="inputUser" required>
+
+                </div><br>
+                <div class="inputbox">
+                    <label for="nome" class="label">Telefone</label><br><br>
+                    <input type="tel" name="tel" id="tel" class="inputUser" required>
+
+                </div><br>
+                <p>Sexo:</p>
+
+                <input class="ponto" type="radio" id="femenino" nome="genero" value="Femenino" required>
+                <label for="femenino" class="label">Femenino </label>
+
+                <input class="ponto" type="radio" id="masculino" nome="genero" value="Masculino" required>
+                <label for="femenino" class="label">Masculino </label>
+
+                <input class="ponto" type="radio" id="outro" nome="genero" value="outro" required>
+                <label for="outro" class="label">Outro </label> <br><br>
+                <br><label for="data_nascimento" class="label"><b>Ano de nascimento: </b> </label><br><br>
+                <input type="date" id="data_nascimento" nome="data_nascimento" value="Data"><br>
+                <br>
+                <div class="inputbox">
+                    <br><label for="nome" class="label">Cidade</label><br>
+                    <br><input type="text" name="cidade" id="cidade" class="inputUser" required>
+
+                </div>
+                <br>
+                <div class="inputbox">
+                    <label for="estado" class="label">Estado</label><br>
+                    <br> <input type="text" name="estado" id="estao" class="inputUser" required>
+
+                </div>
+                <br><br>
+                <div class="inputbox">
+                    <label for="estado" class="label">Endereço</label><br><br>
+                    <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                </div><br><br>
+                <b><input type="submit" name="enviar" id="enviar" value="Enviar"></b>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>

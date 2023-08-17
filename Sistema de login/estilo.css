@@ -1,0 +1,44 @@
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        background-color: dodgerblue;
+    }
+    
+    div {
+        background-color: hsla(0, 0%, 0%, 0.61);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 75px;
+        border-radius: 20px;
+        color: white;
+    }
+    
+    input {
+        padding: 10px;
+        border: none;
+        outline: none;
+        font: 15%;
+    }
+    
+    .btn {
+        background-color: dodgerblue;
+        border: none;
+        padding: 15px;
+        width: 100%;
+        border-radius: 20px;
+        color: white;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    
+    a {
+        background-color: rgb(30, 173, 255);
+        border: 2px;
+        padding: 15px;
+        width: 100px;
+        border-radius: 20px;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+    }

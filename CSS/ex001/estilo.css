@@ -1,0 +1,18 @@
+body {
+    width: black;
+    background-image: url(./Andaluz.Png);
+}
+
+h1 {
+    color: red;
+    text-decoration: underline;
+    background-color: darkgoldenrod;
+}
+
+h2 {
+    color: blue;
+}
+
+p {
+    color: rgb(30, 255, 0);
+}

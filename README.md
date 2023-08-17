@@ -1,2 +1,2 @@
 # HTML-CSS
- HTML E CSSS
+ Fazendo curso de HTML e CSS fazendo com gustavo guanabara
