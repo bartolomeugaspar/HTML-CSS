@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<style>
+    table{
+        width: 500px;
+
+        border-collapse: collapse;
+        border: 1px solid black;
+    }
+    thead{
+        background-color: lightslategray;
+        color: white;
+    }
+    td, th{
+        border: 1px solid black;
+        padding: 10px;
+    }
+    .numero{
+        text-align: right;
+    }
+caption{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightslategray;
+    border: 1px solid black;
+}
+#po{
+    width: 50px;
+}
+
+
+    tfoot{
+        background-color: lightslategray;
+        color: white;
+    }
+    
+</style>
+
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        ANATOMIA DAS TABELAS GRANDES
+        TABLE
+            CAPCTION = LENGEDA DA TABELA
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+
+
+    -->
+ <table>
+    <CAPtion>UNIDADE DA POPULAÇÃO</CAPtion>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th id="po">População</th>
+            </tr>
+    </thead>
+
+    <tbody>
+            <tr>
+                <td>Luanda</td>
+                <td class="numero">122.246.700 </td>
+            </tr>
+            <tr>
+                <td>Minas gerais</td>
+                <td class="numero">21.232.742</td>
+            </tr>
+            <tr>
+                <td>Malanje</td>
+                <td class="numero">932.231.1</td>
+            </tr>
+            <tr>
+                <td>Benguela</td>
+                <td class="numero">23.121.323</td>
+            </tr>
+            <tr>
+                <td>Huambo</td>
+                <td class="numero">902.122.12</td>
+            </tr>
+            <tr>
+                <td >Cabinda</td>
+                <td class="numero">912.112.21</td>
+            </tr>
+            <tr>
+                <td>Huíla</td>
+                <td class="numero">123.122.122</td>
+            </tr>
+            <tr>
+                <td>Namibe</td>
+                <td class="numero">90.232.122</td>
+            </tr>
+            <tr>
+                <td>Kwanza Sul</td>
+                <td class="numero">89.123.432</td>
+            </tr>
+            <tr>
+                <td>Bengo</td>
+                <td class="numero">909.890.23</td>
+                
+            </tr>
+
+    </tbody>
+
+    <tfoot>
+<tr>
+    <th>Total de Abitantes</th>
+    <td class="numero"><strong>234.4667.239</strong></td>
+</tr>
+    </tfoot>
+
+ </table>
+    
+</body>
+</html>
