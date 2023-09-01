@@ -8,13 +8,22 @@
 <style>
     table{
         width: 500px;
-
         border-collapse: collapse;
         border: 1px solid black;
+        position: relative;
+       
     }
     thead{
         background-color: lightslategray;
         color: white;
+    }
+    thead > tr > th{
+        position: static;
+        top: -1px;
+        background-color: lightslategray;
+    }
+    tbody > tr:nth-child(2n){
+        background-color: lightgrey;
     }
     td, th{
         border: 1px solid black;
@@ -27,7 +36,7 @@ caption{
     font-size: 1.5em;
     font-weight: bold;
     padding: 10px;
-    background-color: lightslategray;
+    background-color: rgb(162, 188, 214);
     border: 1px solid black;
 }
 #po{
@@ -108,6 +117,7 @@ caption{
                 <td class="numero">909.890.23</td>
                 
             </tr>
+           
 
     </tbody>
 
